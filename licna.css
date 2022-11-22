@@ -1,0 +1,130 @@
+.spoljasnja { 
+    font-family: Calibri, sans-serif;  
+    border: 3px solid black;
+    height: 305px;
+    width: 490px;
+    border-radius: 15px;
+    padding: 4px 8px;
+    display: grid;
+    grid-template: "grb   nista Srb  Srb  Srb"
+                   "grb   nista lk   lk   lk"
+                   "slika slika prez prez grb2"
+                   "slika slika ime  ime  grb2"
+                   "slika slika rodj rodj grb2"
+                   "slika slika pol  reg  slika2"
+                   "slika slika izd  izd  slika2"
+                   "slika slika do   do   slika2"
+                   "pu    pu    pu   pu   potpis";
+    grid-template-columns: 80px 80px 100px 100px 130px;
+    grid-template-rows: 30px 30px 35px 35px 35px 35px 35px 35px 35px;
+                   
+}
+
+.grb {
+    grid-area: grb;
+    align-self: center; /*vertikalno*/
+    justify-self: center; /*horizontalno*/
+}
+
+.nista {
+    margin-right: 5px;
+}
+
+.drzava {
+    grid-area: Srb;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.licna-karta {
+    grid-area: lk;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.slika {
+    grid-area: slika;
+    border: 2px solid black;
+    align-self: center;
+    justify-self: center;
+    margin-right: 5px;
+}
+
+.prezime {
+    grid-area: prez;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.ime {
+    grid-area: ime;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.rodjendan {
+    grid-area: rodj;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.grb2 {
+    grid-area: grb2;
+    align-self: end;
+    justify-self: center;
+}
+
+.pol {
+    grid-area: pol;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.reg {
+    grid-area: reg;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.izd {
+    grid-area: izd;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.slika2 {
+    grid-area: slika2;
+    align-self: center;
+    justify-self: center;
+}
+
+.pu {
+    grid-area: pu;
+    align-self: center;
+}
+
+.do {
+    grid-area: do;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.potpis {
+    grid-area: potpis;
+    align-self: center;
+    justify-self: center;
+}
+
+.velika-slova {
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+    line-height: 14px;
+}
+
+.mala-slova {
+    font-size: 13px;
+    font-style: italic;
+    color: lightgray;
+    line-height: 9px;
+}
