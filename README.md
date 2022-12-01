@@ -1,3 +1,3 @@
 # licna-karta
 
-Napravljen šablon lične karte korišćenjem HTML-a i CSS-a
+Made a template for ID card using HTML and CSS
